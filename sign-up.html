@@ -1,0 +1,85 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Sign Up - Yabtex Sticker Shop</title> 
+  <link rel="stylesheet" type="text/css" href="styles.css"> 
+ <style type="text/css" id="dcoder_stylesheet">/* Styling for the sign-up form */
+.signup-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  color: #555;
+}
+
+.signup-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.signup-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.signup-form label {
+  font-size: 14px;
+  color: #555;
+}
+
+.signup-form .error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Styling for the sign-up page container */
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}</style></head> 
+ <body> 
+  <div class="signup-page"> 
+   <div class="signup-form"> 
+    <h2>Sign Up</h2> 
+    <form> <label for="name">Name:</label> 
+     <input type="text" id="name" name="name" required> <label for="email">Email:</label> 
+     <input type="email" id="email" name="email" required> <label for="password">Password:</label> 
+     <input type="password" id="password" name="password" required> <label for="confirm-password">Confirm Password:</label> 
+     <input type="password" id="confirm-password" name="confirm-password" required> 
+     <input type="submit" value="Sign Up"> 
+    </form> 
+   </div> 
+  </div> 
+ 
+<script type="text/javascript" id="dcoder_script">const form = document.querySelector('#signup-form');
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  // Code to handle form submission
+});
+</script></body></html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Checkout Page</title> 
+  <link rel="stylesheet" type="text/css" href="styles.css"> 
+ <style type="text/css" id="dcoder_stylesheet">body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+main {
+  margin: 20px;
+}
+
+.checkout-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.checkout-container h1 {
+  margin-top: 0;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+}
+
+form input {
+  padding: 5px</style></head> 
+ <body> 
+  <header> 
+   <nav> 
+    <ul> 
+     <li><a href="#">Home</a></li> 
+     <li><a href="#">Shop</a></li> 
+     <li><a href="#">About</a></li> 
+     <li><a href="#">Contact</a></li> 
+    </ul> 
+   </nav> 
+  </header> 
+  <main> 
+   <section class="checkout-container"> 
+    <h1>Checkout</h1> 
+    <form> <label for="name">Name:</label> 
+     <input type="text" id="name" name="name" required> <label for="email">Email:</label> 
+     <input type="email" id="email" name="email" required> <label for="address">Address:</label> 
+     <input type="text" id="address" name="address" required> <label for="city">City:</label> 
+     <input type="text" id="city" name="city" required> <label for="state">State:</label> 
+     <input type="text" id="state" name="state" required> <label for="zip">Zip:</label> 
+     <input type="text" id="zip" name="zip" required> <label for="cardname">Name on Card:</label> 
+     <input type="text" id="cardname" name="cardname" required> <label for="cardnumber">Card Number:</label> 
+     <input type="text" id="cardnumber" name="cardnumber" required> <label for="expmonth">Exp Month:</label> 
+     <input type="text" id="expmonth" name="expmonth" required> <label for="expyear">Exp Year:</label> 
+     <input type="text" id="expyear" name="expyear" required> <label for="cvv">CVV:</label> 
+     <input type="text" id="cvv" name="cvv" required> 
+    </form> <button type="submit">Place Order</button> 
+   </section> 
+  </main> 
+  <footer> 
+   <p>© 2023 Yabtex. All rights reserved.</p> 
+  </footer> 
+ 
+<script type="text/javascript" id="dcoder_script">const checkoutButton = document.querySelector('#checkout-button');
+checkoutButton.addEventListener('click', () => {
+  // Code to process checkout
+});
+</script></body></html>
